@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./reset.css";
 import "./styles.css";
+import "../public/assets/fonts.css";
 
 function Header() {
   let [expanded, setExpanded] = React.useState(false);
