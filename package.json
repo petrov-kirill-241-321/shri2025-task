@@ -1,0 +1,24 @@
+{
+  "name": "yandex-home",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.27.1",
+    "@vitejs/plugin-react": "^4.6.0",
+    "gh-pages": "^6.3.0",
+    "vite": "^7.0.0",
+    "vite-plugin-imagemin": "^0.6.1"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
